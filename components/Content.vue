@@ -62,32 +62,19 @@
     <div>
       <div v-if="currentContent === 'Arbeitnehmer'">
         <div class="h-full">
-          <h1>{{ Arbeitnehmer.header }}peter</h1>
-          <div class="h-80 border border-black">
-            {{ Arbeitnehmer.ersteSchritte }}
-          </div>
-          <div class="h-80 border border-black">
-            {{ Arbeitnehmer.zweiteSchritte }}
-          </div>
-          <div class="h-80 border border-black">
-            {{ Arbeitnehmer.dritteSchritte }}
+          <div>
+            <img src="../assets/img/section-1.png" width="100%" height="100%" />
           </div>
         </div>
       </div>
       <div v-else-if="currentContent === 'Arbeitgeber'">
         <div class="h-full">
-          <h1>{{ Arbeitgeber.header }}peter</h1>
-          <div class="h-80 border border-black">Content</div>
-          <div class="h-80 border border-black">Content</div>
-          <div class="h-80 border border-black">Content</div>
+          <img src="../assets/img/section-2.png" width="100%" height="100%" />
         </div>
       </div>
       <div v-else-if="currentContent === 'Temporarburo'">
         <div class="h-full">
-          <h1>{{ Temporarburo.header }}peter</h1>
-          <div class="h-80 border border-black">Content</div>
-          <div class="h-80 border border-black">Content</div>
-          <div class="h-80 border border-black">Content</div>
+          <img src="../assets/img/section-3.png" width="100%" height="100%" />
         </div>
       </div>
     </div>
@@ -102,33 +89,15 @@ export default {
       currentContent: "Arbeitnehmer",
       Arbeitnehmer: {
         id: 1,
-        header: "Drei einfache Scritte zu deinem neuen Job",
-        ersteSchritte: "Erstellen dein Lebenslauf",
-        zweiteSchritte: "Erstellen dein Lebenslauf",
-        dritteSchritte: "Mit nur einem Klick bewerben",
-        firstImage: "",
-        secondImage: "",
-        thirdImage: "",
+        image: "../assets/img/section-1.png",
       },
       Arbeitgeber: {
         id: 2,
-        header: "Drei einfache Schritte zu deinem neuen Mitarbeiter",
-        ersteSchritte: "Erstellen dein Unternehmensprofil",
-        zweiteSchritte: "Erstellen ein Jobinserat",
-        dritteSchritte: "Wahle deinen newuen Mitarbeiter aus",
-        firstImage: "",
-        secondImage: "",
-        thirdImage: "",
+        image: "~/assets/img/section-2.png",
       },
       Temporarburo: {
         id: 3,
-        header: "Drei einfache Scritte zur Vermittlung neuer Mitarbeiter",
-        ersteSchritte: "Erstellen dein Unternehmensprofil",
-        zweiteSchritte: "Erhalte Vermittlungs-angebot von Arbeitgeber",
-        dritteSchritte: "Vermittlung nach Provision oder Studentlohn",
-        firstImage: "",
-        secondImage: "",
-        thirdImage: "",
+        image: "~/assets/img/section-3.png",
       },
     };
   },

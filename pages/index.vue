@@ -3,7 +3,7 @@
     <Header />
 
     <!-- main content -->
-    <main class="absolute top-20 grid grid-cols-1 w-screen overflow-hidden">
+    <main class="absolute top-20 grid grid-cols-1 w-screen">
       <Hero />
 
       <Content />
