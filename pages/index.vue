@@ -1,7 +1,19 @@
 <template>
-  <Tutorial/>
+  <div class="h-full">
+    <Header />
+
+    <!-- main content -->
+    <main class="absolute top-20 grid grid-cols-1 w-screen overflow-hidden">
+      <Hero />
+
+      <Content />
+    </main>
+    <Footer />
+  </div>
 </template>
 
 <script>
-export default {}
+export default {
+  name: "main-page",
+};
 </script>
