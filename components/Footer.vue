@@ -1,0 +1,31 @@
+<template>
+  <footer
+    class="
+      flex
+      justify-center
+      bg-white
+      fixed
+      inset-x-0
+      bottom-0
+      p-2
+      rounded-t-2xl
+      shadow-md
+    "
+  >
+    <button
+      class="
+        py-3
+        px-12
+        my-5
+        w-96
+        rounded-2xl
+        bg-gradient-to-r
+        from-green-600
+        to-blue-700
+        text-white text-xl
+      "
+    >
+      Kostenlos Registrieren
+    </button>
+  </footer>
+</template>
