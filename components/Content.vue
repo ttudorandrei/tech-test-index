@@ -80,7 +80,7 @@
 
           <!-- second piece of news -->
           <div
-            class="h-80 my-20 flex flex-col justify-around align-center"
+            class="h-96 my-20 flex flex-col justify-around align-center"
             style="background-color: #e6fffa"
           >
             <div class="flex flex-wrap justify-center">
@@ -93,7 +93,7 @@
           </div>
 
           <!-- third piece of news -->
-          <div class="h-80 my-20 flex flex-col justify-around align-center">
+          <div class="h-96 my-20 flex flex-col justify-around align-center">
             <div class="flex flex-wrap justify-center">
               <div class="w-32 text-9xl text-gray-400 font-medium">3.</div>
               <div class="w-52 text-2xl my-auto align-text-bottom">
@@ -113,7 +113,7 @@
 
         <div class="h-full">
           <!-- first piece of news -->
-          <div class="h-80 my-20 flex flex-col justify-center align-center">
+          <div class="h-96 my-20 flex flex-col justify-center align-center">
             <img src="../assets/img/undraw-profile-data.png" class="mx-auto" />
             <div class="flex flex-wrap justify-around">
               <div class="w-50 text-9xl text-gray-400 font-medium">1.</div>
@@ -139,7 +139,7 @@
 
           <!-- third piece of news -->
 
-          <div class="h-80 my-20 flex flex-col justify-around align-center">
+          <div class="h-96 my-20 flex flex-col justify-around align-center">
             <div class="flex flex-wrap justify-center">
               <div class="w-32 text-9xl text-gray-400 font-medium">3.</div>
               <div class="w-60 text-2xl my-auto align-text-bottom">
@@ -162,8 +162,8 @@
           <div class="h-96 my-20 flex flex-col justify-center align-center">
             <img src="../assets/img/undraw-profile-data.png" class="mx-auto" />
             <div class="flex flex-wrap justify-around">
-              <div class="w-50 text-9xl text-gray-400 font-medium">1.</div>
-              <div class="w-50 text-2xl my-auto align-text-bottom">
+              <div class="w-32 text-9xl text-gray-400 font-medium">1.</div>
+              <div class="w-52 text-2xl my-auto align-text-bottom">
                 {{ Temporarburo.ersteSchritte }}
               </div>
             </div>
@@ -171,7 +171,7 @@
 
           <!-- second piece of news -->
           <div
-            class="h-80 my-20 flex flex-col justify-around align-center"
+            class="h-96 my-20 flex flex-col justify-around align-center"
             style="background-color: #e6fffa"
           >
             <div class="flex flex-wrap justify-center">
@@ -184,7 +184,7 @@
           </div>
 
           <!-- third piece of news -->
-          <div class="h-80 my-20 flex flex-col justify-around align-center">
+          <div class="h-96 my-20 flex flex-col justify-around align-center">
             <div class="flex flex-wrap justify-center">
               <div class="w-32 text-9xl text-gray-400 font-medium">3.</div>
               <div class="w-52 text-2xl my-auto align-text-bottom">
